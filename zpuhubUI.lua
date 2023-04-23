@@ -1095,6 +1095,21 @@ function utility.rgba(r, g, b, alpha)
 end
 
 local themes = {
+    Default = {
+        ["Accent"] = Color3.fromRGB(255,255,255),
+        ["Window Background"] = Color3.fromRGB(41, 41, 41),
+        ["Window Border"] = Color3.fromRGB(255, 255, 255),
+        ["Tab Background"] = Color3.fromRGB(34, 34, 34),
+        ["Tab Border"] = Color3.fromRGB(255, 255, 255),
+        ["Tab Toggle Background"] = Color3.fromRGB(92, 92, 92),
+        ["Section Background"] = Color3.fromRGB(0, 0, 0),
+        ["Section Border"] = Color3.fromRGB(0, 203, 255),
+        ["Text"] = Color3.fromRGB(255, 255, 255),
+        ["Disabled Text"] = Color3.fromRGB(0, 187, 255),
+        ["Object Background"] = Color3.fromRGB(41, 41, 41),
+        ["Object Border"] = Color3.fromRGB(85, 85, 85),
+        ["Dropdown Option Background"] = Color3.fromRGB(255, 255, 255)
+    },
     Midnight = {
         ["Accent"] = Color3.fromRGB(100, 59, 154),
         ["Window Background"] = Color3.fromRGB(30, 30, 36),
@@ -1109,6 +1124,21 @@ local themes = {
         ["Object Background"] = Color3.fromRGB(25, 25, 29),
         ["Object Border"] = Color3.fromRGB(35, 35, 39),
         ["Dropdown Option Background"] = Color3.fromRGB(19, 19, 23)
+    },
+     WhiteAndBlack = {
+        ["Accent"] = Color3.fromRGB(255,255,255),
+        ["Window Background"] = Color3.fromRGB(0, 0, 0),
+        ["Window Border"] = Color3.fromRGB(255, 255, 255),
+        ["Tab Background"] = Color3.fromRGB(23, 23, 23),
+        ["Tab Border"] = Color3.fromRGB(176, 176, 176),
+        ["Tab Toggle Background"] = Color3.fromRGB(143, 143, 143),
+        ["Section Background"] = Color3.fromRGB(44, 44, 44	),
+        ["Section Border"] = Color3.fromRGB(0, 0, 0),
+        ["Text"] = Color3.fromRGB(220, 220, 220),
+        ["Disabled Text"] = Color3.fromRGB(197, 197, 197),
+        ["Object Background"] = Color3.fromRGB(39, 39, 39),
+        ["Object Border"] = Color3.fromRGB(0, 0, 0),
+        ["Dropdown Option Background"] = Color3.fromRGB(0, 0, 0)
     },
     WhiteAndBlue = {
         ["Accent"] = Color3.fromRGB(255,255,255),
