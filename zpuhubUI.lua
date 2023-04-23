@@ -1110,7 +1110,7 @@ local themes = {
         ["Object Border"] = Color3.fromRGB(85, 85, 85),
         ["Dropdown Option Background"] = Color3.fromRGB(255, 255, 255)
     },
-    ZPU HUB Style = {
+    ZPUHUBStyle = {
         ["Accent"] = Color3.fromRGB(111, 0, 255),
         ["Window Background"] = Color3.fromRGB(47, 0, 88),
         ["Window Border"] = Color3.fromRGB(0, 0, 0),
