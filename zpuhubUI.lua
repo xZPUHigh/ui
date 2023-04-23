@@ -1095,21 +1095,6 @@ function utility.rgba(r, g, b, alpha)
 end
 
 local themes = {
-    Default = {
-        ["Accent"] = Color3.fromRGB(255,255,255),
-        ["Window Background"] = Color3.fromRGB(41, 41, 41),
-        ["Window Border"] = Color3.fromRGB(255, 255, 255),
-        ["Tab Background"] = Color3.fromRGB(34, 34, 34),
-        ["Tab Border"] = Color3.fromRGB(255, 255, 255),
-        ["Tab Toggle Background"] = Color3.fromRGB(92, 92, 92),
-        ["Section Background"] = Color3.fromRGB(0, 0, 0),
-        ["Section Border"] = Color3.fromRGB(0, 203, 255),
-        ["Text"] = Color3.fromRGB(255, 255, 255),
-        ["Disabled Text"] = Color3.fromRGB(0, 187, 255),
-        ["Object Background"] = Color3.fromRGB(41, 41, 41),
-        ["Object Border"] = Color3.fromRGB(85, 85, 85),
-        ["Dropdown Option Background"] = Color3.fromRGB(255, 255, 255)
-    },
     ZPUHUBStyle = {
         ["Accent"] = Color3.fromRGB(111, 0, 255),
         ["Window Background"] = Color3.fromRGB(47, 0, 88),
